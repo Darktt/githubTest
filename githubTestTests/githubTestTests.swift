@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import HttpRequestMonitor
+import githubTest
 
 class HttpRequestMonitorTests: XCTestCase
 {
