@@ -15,17 +15,23 @@ jobs:
       - name: Setup Swift version
         uses: fwal/setup-swift@v1
         with:
-          swift-version: '5'
+          swift-version: '5.0'
       
       - name: Setup Xcode version
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: 'latest-stable'
+          xcode-version: 'lastest-stable'
       
       - name: Build and tests
         uses: sersoft-gmbh/xcodebuild-action@v1
         with:
           project: githubTest.xcodeproj
           scheme: githubTest
-          destination: platform:iOS Simulator, name:iPhone 12
+          destination: platform=iOS Simulator, name=iPhone 12
           action: build
+
+      # - name: Build
+      #   run: xcodebuild clean -project githubTest.xcodeproj -scheme githubTest
+      
+      # - name: Run tests
+      #   run: xcodebuild test -project githubTest.xcodeproj -scheme githubTest -destination 'platform=iOS Simulator,name=iPhone 12'
