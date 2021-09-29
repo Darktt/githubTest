@@ -28,4 +28,4 @@ jobs:
           project: githubTest.xcodeproj
           scheme: githubTest
           destination: platform=iOS Simulator,name=iPhone 13,OS=15.0
-          action: [build, test]
+          action: build
