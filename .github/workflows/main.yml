@@ -27,5 +27,5 @@ jobs:
         with:
           project: githubTest.xcodeproj
           scheme: githubTest
-          destination: 'platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device'
+          destination: platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device
           action: build
