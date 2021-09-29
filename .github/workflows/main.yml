@@ -16,8 +16,7 @@ jobs:
         uses: fwal/setup-swift@v1
         with:
           swift-version: '5.0'
-      
-    steps:
+          
       - name: "Select the latest stable Xcode 13"
         uses: devbotsxyz/xcode-select@v1
         with:
