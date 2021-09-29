@@ -27,7 +27,7 @@ jobs:
         with:
           project: githubTest.xcodeproj
           scheme: githubTest
-          destination: platform=iOS Simulator, name=iPhone 12
+          destination: platform=iOS Simulator, name=iPhone X
           action: build
 
       # - name: Build
