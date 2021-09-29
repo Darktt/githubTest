@@ -22,13 +22,21 @@ jobs:
         with:
           version: "13"
       
-      - name: Build and tests
+      - name: Build
         uses: sersoft-gmbh/xcodebuild-action@v1
         with:
           project: githubTest.xcodeproj
           scheme: githubTest
           destination: platform=iOS Simulator,name=iPhone 13
           action: build
+
+      - name: Runing tests
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: githubTest.xcodeproj
+          scheme: githubTest
+          destination: platform=iOS Simulator,name=iPhone 13
+          action: test
 
       # - name: Build
       #   run: xcodebuild clean -project githubTest.xcodeproj -scheme githubTest
