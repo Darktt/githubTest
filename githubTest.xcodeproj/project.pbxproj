@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2CA7B1427030633004CCBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B1327030633004CCBB0 /* AppDelegate.swift */; };
-		F2CA7B1627030633004CCBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B1527030633004CCBB0 /* SceneDelegate.swift */; };
-		F2CA7B1827030633004CCBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B1727030633004CCBB0 /* ViewController.swift */; };
-		F2CA7B1B27030633004CCBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CA7B1927030633004CCBB0 /* Main.storyboard */; };
-		F2CA7B1D27030634004CCBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA7B1C27030634004CCBB0 /* Assets.xcassets */; };
-		F2CA7B2027030634004CCBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CA7B1E27030634004CCBB0 /* LaunchScreen.storyboard */; };
+		F21D233027043C58000EF75F /* DetailRequestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21D232427043C58000EF75F /* DetailRequestController.xib */; };
+		F21D233127043C58000EF75F /* DetailRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232527043C58000EF75F /* DetailRequestController.swift */; };
+		F21D233227043C58000EF75F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232727043C58000EF75F /* UIViewControllerExtension.swift */; };
+		F21D233327043C58000EF75F /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232827043C58000EF75F /* UITableViewExtension.swift */; };
+		F21D233427043C58000EF75F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232927043C58000EF75F /* NSAttributedStringExtension.swift */; };
+		F21D233527043C58000EF75F /* UIAlertActionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232A27043C58000EF75F /* UIAlertActionBuilder.swift */; };
+		F21D233627043C58000EF75F /* BodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232C27043C58000EF75F /* BodyCell.swift */; };
+		F21D233727043C58000EF75F /* BodyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21D232D27043C58000EF75F /* BodyCell.xib */; };
+		F21D233827043C58000EF75F /* FieldValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D232E27043C58000EF75F /* FieldValueCell.swift */; };
+		F21D233927043C58000EF75F /* FieldValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21D232F27043C58000EF75F /* FieldValueCell.xib */; };
+		F21D235427043C71000EF75F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21D233A27043C71000EF75F /* RootViewController.xib */; };
+		F21D235527043C71000EF75F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D233B27043C71000EF75F /* SceneDelegate.swift */; };
+		F21D235627043C71000EF75F /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D233D27043C71000EF75F /* HTTPMethod.swift */; };
+		F21D235727043C71000EF75F /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D233E27043C71000EF75F /* HTTPHeader.swift */; };
+		F21D235827043C71000EF75F /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D233F27043C71000EF75F /* HTTPMessage.swift */; };
+		F21D235927043C71000EF75F /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234027043C71000EF75F /* HTTPStatus.swift */; };
+		F21D235A27043C71000EF75F /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234127043C71000EF75F /* HTTPConnection.swift */; };
+		F21D235B27043C71000EF75F /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234227043C71000EF75F /* HTTPService.swift */; };
+		F21D235C27043C71000EF75F /* RootToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234327043C71000EF75F /* RootToolBar.swift */; };
+		F21D235D27043C71000EF75F /* CustomCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234527043C71000EF75F /* CustomCellRegistrable.swift */; };
+		F21D235E27043C71000EF75F /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234727043C71000EF75F /* MenuManager.swift */; };
+		F21D235F27043C71000EF75F /* FluentInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234927043C71000EF75F /* FluentInterface.swift */; };
+		F21D236027043C71000EF75F /* ActionPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234A27043C71000EF75F /* ActionPublisher.swift */; };
+		F21D236127043C71000EF75F /* DTWiFiInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234B27043C71000EF75F /* DTWiFiInformation.swift */; };
+		F21D236227043C71000EF75F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D234D27043C71000EF75F /* DetailViewModel.swift */; };
+		F21D236327043C71000EF75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21D234F27043C71000EF75F /* Assets.xcassets */; };
+		F21D236427043C71000EF75F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21D235027043C71000EF75F /* LaunchScreen.storyboard */; };
+		F21D236627043C71000EF75F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D235327043C71000EF75F /* RootViewController.swift */; };
+		F21D236927043D75000EF75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D236827043D75000EF75F /* AppDelegate.swift */; };
 		F2CA7B2B27030634004CCBB0 /* githubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B2A27030634004CCBB0 /* githubTestTests.swift */; };
 		F2CA7B3527030634004CCBB0 /* githubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B3427030634004CCBB0 /* githubTestUITests.swift */; };
 		F2CA7B3727030634004CCBB0 /* githubTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA7B3627030634004CCBB0 /* githubTestUITestsLaunchTests.swift */; };
@@ -36,14 +59,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21D232427043C58000EF75F /* DetailRequestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailRequestController.xib; sourceTree = "<group>"; };
+		F21D232527043C58000EF75F /* DetailRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRequestController.swift; sourceTree = "<group>"; };
+		F21D232727043C58000EF75F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		F21D232827043C58000EF75F /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		F21D232927043C58000EF75F /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		F21D232A27043C58000EF75F /* UIAlertActionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertActionBuilder.swift; sourceTree = "<group>"; };
+		F21D232C27043C58000EF75F /* BodyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyCell.swift; sourceTree = "<group>"; };
+		F21D232D27043C58000EF75F /* BodyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BodyCell.xib; sourceTree = "<group>"; };
+		F21D232E27043C58000EF75F /* FieldValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValueCell.swift; sourceTree = "<group>"; };
+		F21D232F27043C58000EF75F /* FieldValueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldValueCell.xib; sourceTree = "<group>"; };
+		F21D233A27043C71000EF75F /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F21D233B27043C71000EF75F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F21D233D27043C71000EF75F /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F21D233E27043C71000EF75F /* HTTPHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		F21D233F27043C71000EF75F /* HTTPMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMessage.swift; sourceTree = "<group>"; };
+		F21D234027043C71000EF75F /* HTTPStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatus.swift; sourceTree = "<group>"; };
+		F21D234127043C71000EF75F /* HTTPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConnection.swift; sourceTree = "<group>"; };
+		F21D234227043C71000EF75F /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		F21D234327043C71000EF75F /* RootToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootToolBar.swift; sourceTree = "<group>"; };
+		F21D234527043C71000EF75F /* CustomCellRegistrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellRegistrable.swift; sourceTree = "<group>"; };
+		F21D234727043C71000EF75F /* MenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		F21D234927043C71000EF75F /* FluentInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluentInterface.swift; sourceTree = "<group>"; };
+		F21D234A27043C71000EF75F /* ActionPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionPublisher.swift; sourceTree = "<group>"; };
+		F21D234B27043C71000EF75F /* DTWiFiInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTWiFiInformation.swift; sourceTree = "<group>"; };
+		F21D234D27043C71000EF75F /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F21D234F27043C71000EF75F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21D235127043C71000EF75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21D235227043C71000EF75F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21D235327043C71000EF75F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F21D236827043D75000EF75F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2CA7B1027030633004CCBB0 /* githubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2CA7B1327030633004CCBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2CA7B1527030633004CCBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2CA7B1727030633004CCBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2CA7B1A27030633004CCBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2CA7B1C27030634004CCBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2CA7B1F27030634004CCBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2CA7B2127030634004CCBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CA7B2627030634004CCBB0 /* githubTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA7B2A27030634004CCBB0 /* githubTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubTestTests.swift; sourceTree = "<group>"; };
 		F2CA7B3027030634004CCBB0 /* githubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +122,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F21D232327043C58000EF75F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F21D232427043C58000EF75F /* DetailRequestController.xib */,
+				F21D232527043C58000EF75F /* DetailRequestController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F21D232627043C58000EF75F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F21D232727043C58000EF75F /* UIViewControllerExtension.swift */,
+				F21D232827043C58000EF75F /* UITableViewExtension.swift */,
+				F21D232927043C58000EF75F /* NSAttributedStringExtension.swift */,
+				F21D232A27043C58000EF75F /* UIAlertActionBuilder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F21D232B27043C58000EF75F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F21D232C27043C58000EF75F /* BodyCell.swift */,
+				F21D232D27043C58000EF75F /* BodyCell.xib */,
+				F21D232E27043C58000EF75F /* FieldValueCell.swift */,
+				F21D232F27043C58000EF75F /* FieldValueCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F21D233C27043C71000EF75F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F21D233D27043C71000EF75F /* HTTPMethod.swift */,
+				F21D233E27043C71000EF75F /* HTTPHeader.swift */,
+				F21D233F27043C71000EF75F /* HTTPMessage.swift */,
+				F21D234027043C71000EF75F /* HTTPStatus.swift */,
+				F21D234127043C71000EF75F /* HTTPConnection.swift */,
+				F21D234227043C71000EF75F /* HTTPService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F21D234427043C71000EF75F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F21D234527043C71000EF75F /* CustomCellRegistrable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F21D234627043C71000EF75F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F21D234727043C71000EF75F /* MenuManager.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F21D234827043C71000EF75F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F21D234927043C71000EF75F /* FluentInterface.swift */,
+				F21D234A27043C71000EF75F /* ActionPublisher.swift */,
+				F21D234B27043C71000EF75F /* DTWiFiInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F21D234C27043C71000EF75F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F21D234D27043C71000EF75F /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F21D234E27043C71000EF75F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F21D234F27043C71000EF75F /* Assets.xcassets */,
+				F21D235027043C71000EF75F /* LaunchScreen.storyboard */,
+				F21D235227043C71000EF75F /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		F2CA7B0727030633004CCBB0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +233,20 @@
 		F2CA7B1227030633004CCBB0 /* githubTest */ = {
 			isa = PBXGroup;
 			children = (
-				F2CA7B1327030633004CCBB0 /* AppDelegate.swift */,
-				F2CA7B1527030633004CCBB0 /* SceneDelegate.swift */,
-				F2CA7B1727030633004CCBB0 /* ViewController.swift */,
-				F2CA7B1927030633004CCBB0 /* Main.storyboard */,
-				F2CA7B1C27030634004CCBB0 /* Assets.xcassets */,
-				F2CA7B1E27030634004CCBB0 /* LaunchScreen.storyboard */,
-				F2CA7B2127030634004CCBB0 /* Info.plist */,
+				F21D236827043D75000EF75F /* AppDelegate.swift */,
+				F21D234627043C71000EF75F /* Menu */,
+				F21D234827043C71000EF75F /* Model */,
+				F21D234427043C71000EF75F /* Protocol */,
+				F21D234E27043C71000EF75F /* Resource */,
+				F21D234327043C71000EF75F /* RootToolBar.swift */,
+				F21D235327043C71000EF75F /* RootViewController.swift */,
+				F21D233A27043C71000EF75F /* RootViewController.xib */,
+				F21D233B27043C71000EF75F /* SceneDelegate.swift */,
+				F21D233C27043C71000EF75F /* Service */,
+				F21D234C27043C71000EF75F /* ViewModel */,
+				F21D232B27043C58000EF75F /* Cell */,
+				F21D232327043C58000EF75F /* Detail */,
+				F21D232627043C58000EF75F /* Extension */,
 			);
 			path = githubTest;
 			sourceTree = "<group>";
@@ -231,9 +372,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CA7B2027030634004CCBB0 /* LaunchScreen.storyboard in Resources */,
-				F2CA7B1D27030634004CCBB0 /* Assets.xcassets in Resources */,
-				F2CA7B1B27030633004CCBB0 /* Main.storyboard in Resources */,
+				F21D233027043C58000EF75F /* DetailRequestController.xib in Resources */,
+				F21D233727043C58000EF75F /* BodyCell.xib in Resources */,
+				F21D235427043C71000EF75F /* RootViewController.xib in Resources */,
+				F21D236427043C71000EF75F /* LaunchScreen.storyboard in Resources */,
+				F21D233927043C58000EF75F /* FieldValueCell.xib in Resources */,
+				F21D236327043C71000EF75F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +402,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CA7B1827030633004CCBB0 /* ViewController.swift in Sources */,
-				F2CA7B1427030633004CCBB0 /* AppDelegate.swift in Sources */,
-				F2CA7B1627030633004CCBB0 /* SceneDelegate.swift in Sources */,
+				F21D235827043C71000EF75F /* HTTPMessage.swift in Sources */,
+				F21D233327043C58000EF75F /* UITableViewExtension.swift in Sources */,
+				F21D235C27043C71000EF75F /* RootToolBar.swift in Sources */,
+				F21D236127043C71000EF75F /* DTWiFiInformation.swift in Sources */,
+				F21D233827043C58000EF75F /* FieldValueCell.swift in Sources */,
+				F21D235727043C71000EF75F /* HTTPHeader.swift in Sources */,
+				F21D235D27043C71000EF75F /* CustomCellRegistrable.swift in Sources */,
+				F21D233227043C58000EF75F /* UIViewControllerExtension.swift in Sources */,
+				F21D235B27043C71000EF75F /* HTTPService.swift in Sources */,
+				F21D236027043C71000EF75F /* ActionPublisher.swift in Sources */,
+				F21D233527043C58000EF75F /* UIAlertActionBuilder.swift in Sources */,
+				F21D235F27043C71000EF75F /* FluentInterface.swift in Sources */,
+				F21D233627043C58000EF75F /* BodyCell.swift in Sources */,
+				F21D235A27043C71000EF75F /* HTTPConnection.swift in Sources */,
+				F21D236627043C71000EF75F /* RootViewController.swift in Sources */,
+				F21D235627043C71000EF75F /* HTTPMethod.swift in Sources */,
+				F21D233127043C58000EF75F /* DetailRequestController.swift in Sources */,
+				F21D236227043C71000EF75F /* DetailViewModel.swift in Sources */,
+				F21D235E27043C71000EF75F /* MenuManager.swift in Sources */,
+				F21D233427043C58000EF75F /* NSAttributedStringExtension.swift in Sources */,
+				F21D235527043C71000EF75F /* SceneDelegate.swift in Sources */,
+				F21D235927043C71000EF75F /* HTTPStatus.swift in Sources */,
+				F21D236927043D75000EF75F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +461,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2CA7B1927030633004CCBB0 /* Main.storyboard */ = {
+		F21D235027043C71000EF75F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2CA7B1A27030633004CCBB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F2CA7B1E27030634004CCBB0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2CA7B1F27030634004CCBB0 /* Base */,
+				F21D235127043C71000EF75F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -441,7 +597,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5PE34DHT4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = githubTest/Info.plist;
+				INFOPLIST_FILE = githubTest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,7 +625,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5PE34DHT4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = githubTest/Info.plist;
+				INFOPLIST_FILE = githubTest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
