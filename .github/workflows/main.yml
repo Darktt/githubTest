@@ -38,8 +38,10 @@ jobs:
           destination: platform=iOS Simulator,name=iPhone 13
           action: test
 
-      # - name: Build
-      #   run: xcodebuild clean -project githubTest.xcodeproj -scheme githubTest
-      
-      # - name: Run tests
-      #   run: xcodebuild test -project githubTest.xcodeproj -scheme githubTest -destination 'platform=iOS Simulator,name=iPhone 12'
+      - name: Runing tests for mac catalyst
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: githubTest.xcodeproj
+          scheme: githubTest
+          destination: platform=macOS,variant=Mac Catalyst
+          action: test
