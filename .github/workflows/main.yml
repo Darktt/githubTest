@@ -19,13 +19,6 @@ jobs:
         uses: devbotsxyz/xcode-select@v1
         with:
           version: "13"
-      
-      - name: "Import Certificate: Development"
-        uses: devbotsxyz/xcode-import-certificate@master
-        with:
-          certificate-data: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
-          certificate-passphrase: ${{ secrets.DEVELOPMENT_CERTIFICATE_PASSPHRASE }}
-          keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }}
 
       - name: Code sign certs
         uses: apple-actions/import-codesign-certs@v1
