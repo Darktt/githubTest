@@ -30,8 +30,8 @@ jobs:
       - name: Code sign certs
         uses: apple-actions/import-codesign-certs@v1
         with: 
-        p12-file-base64: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
-        p12-password: ${{ secrets.KEYCHAIN_PASSWORD }}
+          p12-file-base64: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
+          p12-password: ${{ secrets.KEYCHAIN_PASSWORD }}
 
       - name: Build
         uses: sersoft-gmbh/xcodebuild-action@v1
