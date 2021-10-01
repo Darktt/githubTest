@@ -1,8 +1,6 @@
 name: Swift
 
 on: [push]
-  # push:
-    # - master
 
 jobs:
   build:
@@ -22,6 +20,13 @@ jobs:
         with:
           version: "13"
       
+      - name: "Import Certificate: Development"
+        uses: devbotsxyz/xcode-import-certificate@master
+        with:
+          certificate-data: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
+          certificate-passphrase: ${{ secrets.DEVELOPMENT_CERTIFICATE_PASSPHRASE }}
+          keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }
+
       - name: Build
         uses: sersoft-gmbh/xcodebuild-action@v1
         with:
@@ -29,6 +34,14 @@ jobs:
           scheme: githubTest
           destination: platform=iOS Simulator,name=iPhone 13
           action: build
+
+      - name: Build for mac catalyst
+        uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          project: githubTest.xcodeproj
+          scheme: githubTest
+          destination: platform=macOS,variant=Mac Catalyst
+          action: build  
 
       - name: Runing tests
         uses: sersoft-gmbh/xcodebuild-action@v1
