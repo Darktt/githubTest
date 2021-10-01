@@ -25,8 +25,8 @@ jobs:
         with:
           certificate-data: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
           certificate-passphrase: ${{ secrets.DEVELOPMENT_CERTIFICATE_PASSPHRASE }}
-          keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }
-
+          keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }}
+          
       - name: Build
         uses: sersoft-gmbh/xcodebuild-action@v1
         with:
